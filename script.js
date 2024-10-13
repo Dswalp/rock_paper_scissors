@@ -11,7 +11,7 @@ function getComputerChoice(){
    
 
 const choice = options[Math.floor(Math.random() * options.length)];
-console.log(choice);
+return choice;
 }
 getComputerChoice();
 
