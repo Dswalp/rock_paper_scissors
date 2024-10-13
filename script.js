@@ -1,12 +1,12 @@
 //get computer choice function
 console.log("Hello,world")
 
-const choice = ["rock", "paper", "scissors"];
+const options = ["rock", "paper", "scissors"];
 
-function getComputerChoice(choice){
+function getComputerChoice(){
    
 
-const random = choice[Math.floor(Math.random()*choice)];
-return random;
+const choice = option[Math.floor(Math.random() * option.length)];
+
 
 }
