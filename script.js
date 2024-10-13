@@ -55,7 +55,7 @@ function playRound(playerSelection, computerSelection){
 function game(){
     let scorePlayer = 0;
     let scoreComputer = 0;
-    console.log ("welcome!")
+     alert ("welcome!")
     for (let i = 0; i < 5; i++){
         const playerSelection = getHumanChoice();
         const computerSelection = getComputerChoice();
