@@ -61,7 +61,7 @@ function playRound(playerSelection, computerSelection){
     else if(result =="Player"){
         return `you win! ${playerSelection} beats ${computerSelection}`
     }
-    else {return `you lose! ${computerSelection} beats ${playerSelection}`;
+    else {return `you lose! ${computerSelection} beats ${playerSelection}`
 }
 
 }
