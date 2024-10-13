@@ -2,7 +2,7 @@
 
 const choice = ["rock", "paper", "scissors"];
 
-function getComputerChoice(){
+function getComputerChoice(choice){
 
 const random = choice[Math.floor(Math.random()*choice)];
 return random;
