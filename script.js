@@ -20,6 +20,7 @@ const options = ["rock", "paper", "scissors"];
 
 function getComputerChoice(){
 const choice = options[Math.floor(Math.random() * options.length)];
+console.log()
 return choice;
 }
 
@@ -61,7 +62,8 @@ function playRound(playerSelection, computerSelection){
     else if(result =="Player"){
         return `you win! ${playerSelection} beats ${computerSelection}`
     }
-    else {return `you lose! ${computerSelection} beats ${playerSelection}`
+    else {
+        return `you lose! ${computerSelection} beats ${playerSelection}`
 }
 
 }
