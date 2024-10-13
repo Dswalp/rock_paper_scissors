@@ -1,4 +1,5 @@
 //get computer choice function
+console.log("Hello,world")
 
 const choice = ["rock", "paper", "scissors"];
 
