@@ -10,7 +10,7 @@ return choice;
 function getHumanChoice(){
     let validatedInput = false;
     while(validatedInput == false){
-        const choice = prompt("Rock Paper Scissors");
+        const choice = prompt("Best of 5");
         if(choice == null) {
             continue;
         }
@@ -55,7 +55,7 @@ function playRound(playerSelection, computerSelection){
 function game(){
     let scorePlayer = 0;
     let scoreComputer = 0;
-     return alert ("welcome!")
+    console.log ("welcome!")
     for (let i = 0; i < 5; i++){
         const playerSelection = getHumanChoice();
         const computerSelection = getComputerChoice();
