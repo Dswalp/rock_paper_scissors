@@ -50,6 +50,10 @@ function checkWinner(playerSelection, computerSelection){
     }
 }
 
+// Step 5 Playing a round 
+//This function orchestrates a single round of the game.
+//It first calls checkWinner to determine the outcome based on the selections.
+//Depending on the result ("Tie", "Player", or "Computer"), it returns a corresponding message.
 
 function playRound(playerSelection, computerSelection){
     const result =checkWinner(playerSelection, computerSelection);
@@ -63,6 +67,7 @@ function playRound(playerSelection, computerSelection){
 }
 
 }
+
 
 const playerSelection = "rock";
 const computerSelection = getComputerChoice();
