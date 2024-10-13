@@ -67,6 +67,7 @@ function game(){
         }
 
     }
+    console.log("Game over!")
     if(scorePlayer > scoreComputer){
         console.log("You Win!");
     }
