@@ -72,7 +72,7 @@ function game(){
     for (let i = 0; i < 5; i++){
         const playerSelection = "rock";
         const computerSelection = getComputerChoice();
-        comsole.log (playRound(playerSelection, computerSelection));
+        console.log (playRound(playerSelection, computerSelection));
 
     }
 
