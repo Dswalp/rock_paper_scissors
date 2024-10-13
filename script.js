@@ -10,7 +10,7 @@ return choice;
 function getHumanChoice(){
     let validatedInput = false;
     while(validatedInput == false){
-        let choice = prompt("Rock Paper Scissors");
+        const choice = prompt("Rock Paper Scissors");
         if(choice == null) {
             continue;
         }
