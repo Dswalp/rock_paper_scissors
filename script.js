@@ -41,13 +41,13 @@ function checkWinner(playerSelection, computerSelection){
 function playRound(playerSelection, computerSelection){
     const result =checkWinner(playerSelection, computerSelection);
     if(result == "Tie"){
-        return alert ("It's a tie!")
+        return alert (`${playerSelection} matches ${computerSelection}`)
     }
     else if(result =="Player"){
-        return alert(`you win! ${playerSelection} beats ${computerSelection}`)
+        return alert(`${playerSelection} beats ${computerSelection}`)
     }
     else {
-        return  alert(`you lose! ${computerSelection} beats ${playerSelection}`)
+        return  alert(` ${computerSelection} beats ${playerSelection}`)
 }
 
 }
