@@ -82,7 +82,7 @@ while(validatedInput == false){
     const choice = prompt("Rock Paper Scissors");
     if(choice == null) {
         continue;
-    })
+    }
     const choiceInLower = choice.toLowerCase();
     if(options.includes(choiceInLower)){
         validatedInput = true;
