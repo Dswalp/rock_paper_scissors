@@ -73,8 +73,8 @@ function game(){
     else if(scorePlayer < scoreComputer){
         console.log("You Lose!");
     }
-    else {console.log("Draw!");
-        
+    else {console.log("Draw! try again");
+
     }
 }
 
