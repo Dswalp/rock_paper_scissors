@@ -1,5 +1,9 @@
-//get computer choice function
+//check js is working
+
 console.log("Hello,world");
+
+//get computer choice function
+
 
 const options = ["rock", "paper", "scissors"];
 
@@ -14,5 +18,5 @@ getComputerChoice();
 //get human choice
 
 function getHumanChoice(){
-    
+
 }
