@@ -55,7 +55,7 @@ function playRound(playerSelection, computerSelection){
 function game(){
     let scorePlayer = 0;
     let scoreComputer = 0;
-    prompt("welcome!")
+    alert("Welcome to Rock Paper Scissors—it's a best of 5, so first to 3 wins!")
     for (let i = 0; i < 5; i++){
         const playerSelection = getHumanChoice();
         const computerSelection = getComputerChoice();
