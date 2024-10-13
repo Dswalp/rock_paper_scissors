@@ -47,7 +47,7 @@ function playRound(playerSelection, computerSelection){
         return prompt(`you win! ${playerSelection} beats ${computerSelection}`)
     }
     else {
-        return `you lose! ${computerSelection} beats ${playerSelection}`
+        return  prompt(`you lose! ${computerSelection} beats ${playerSelection}`)
 }
 
 }
