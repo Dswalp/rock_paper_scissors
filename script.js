@@ -35,9 +35,9 @@ function playRound(playerSelection, computerSelection){
         return "It's a tie!"
     }
     else if(result =="Player"){
-        return `you win ${playerSelection} beats ${computerSelection}`
+        return `you win! ${playerSelection} beats ${computerSelection}`
     }
-    else {return `you lose ${computerSelection} beats ${playerSelection}`;
+    else {return `you lose! ${computerSelection} beats ${playerSelection}`;
 }
 
 }
