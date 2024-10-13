@@ -75,7 +75,7 @@ function game(){
         return alert("You Lose!");
     }
     else {
-        return alert("Draw! try again");
+        return alert("Draw!");
 
     }
 }
