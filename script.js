@@ -44,10 +44,10 @@ function playRound(playerSelection, computerSelection){
         return alert ("It's a tie!")
     }
     else if(result =="Player"){
-        return prompt(`you win! ${playerSelection} beats ${computerSelection}`)
+        return alert(`you win! ${playerSelection} beats ${computerSelection}`)
     }
     else {
-        return  prompt(`you lose! ${computerSelection} beats ${playerSelection}`)
+        return  alert(`you lose! ${computerSelection} beats ${playerSelection}`)
 }
 
 }
@@ -69,12 +69,13 @@ function game(){
     }
     console.log("Game over!")
     if(scorePlayer > scoreComputer){
-        console.log("You Win!");
+        return alert("You Win!");
     }
     else if(scorePlayer < scoreComputer){
-        console.log("You Lose!");
+        return alert("You Lose!");
     }
-    else {console.log("Draw! try again");
+    else {
+        return alert("Draw! try again");
 
     }
 }
