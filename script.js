@@ -6,7 +6,7 @@ const options = ["rock", "paper", "scissors"];
 function getComputerChoice(){
    
 
-const choice = option[Math.floor(Math.random() * options.length)];
+const choice = options[Math.floor(Math.random() * options.length)];
 
 
 }
