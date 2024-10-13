@@ -10,3 +10,9 @@ const choice = options[Math.floor(Math.random() * options.length)];
 return choice;
 }
 getComputerChoice();
+
+//get human choice
+
+function getHumanChoice(){
+    
+}
